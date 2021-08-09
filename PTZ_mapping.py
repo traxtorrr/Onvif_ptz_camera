@@ -227,7 +227,7 @@ def pan_interpolate(idx_zoom_level, in_pt_yx):
     # print("X1 and X2 is: ",x_1," & " ,x_2)
     # print("pan1 and pan2 is: ",pan1," & " ,pan2)
     if new_pan < 0:
-        new_pan + pan_shift
+        new_pan += pan_shift
     return new_pan
 
 
